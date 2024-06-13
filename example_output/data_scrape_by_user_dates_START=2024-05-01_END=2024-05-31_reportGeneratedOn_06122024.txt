@@ -1,0 +1,1598 @@
+NEW USER: brunetti@xsede.org
+JOBSIZE
+Cluster|Account|0-49 CPUs|50-249 CPUs|250-499 CPUs|500-999 CPUs|>= 1000 CPUs|% of cluster|
+alpine|amc-general|26|0|0|0|0|100.00%|
+SU
+Cluster|Account|Login|Proper Name|TRES Name|Used
+alpine|amc-general|brunetti@xsede.org|Tonya Brunetti|billing|205
+TOTALJOBS
+26
+JOBSTATUS
+COMPLETED	11
+FAILED	9
+OUT_OF_MEMORY	1
+TIMEOUT	5
+SEFF
+Job ID: 5906258
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 17
+CPU Utilized: 1-05:50:41
+CPU Efficiency: 87.58% of 1-10:04:32 core-walltime
+Job Wall-clock time: 02:00:16
+Memory Utilized: 9.97 GB
+Memory Efficiency: 99.65% of 10.00 GB
+Job ID: 5906294
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 37
+CPU Utilized: 6-00:45:54
+CPU Efficiency: 97.74% of 6-04:06:47 core-walltime
+Job Wall-clock time: 04:00:11
+Memory Utilized: 91.75 GB
+Memory Efficiency: 76.46% of 120.00 GB
+Job ID: 5907546
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:09:05
+CPU Efficiency: 15.09% of 01:00:12 core-walltime
+Job Wall-clock time: 01:00:12
+Memory Utilized: 43.31 MB
+Memory Efficiency: 1.13% of 3.75 GB
+Job ID: 6110042
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 137)
+Cores: 1
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.04% of 00:38:18 core-walltime
+Job Wall-clock time: 00:38:18
+Memory Utilized: 14.70 MB
+Memory Efficiency: 0.38% of 3.75 GB
+Job ID: 6131637
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 137)
+Cores: 1
+CPU Utilized: 00:00:02
+CPU Efficiency: 1.96% of 00:01:42 core-walltime
+Job Wall-clock time: 00:01:42
+Memory Utilized: 21.53 MB
+Memory Efficiency: 0.56% of 3.75 GB
+Job ID: 6131657
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:01:27
+CPU Efficiency: 3.92% of 00:37:00 core-walltime
+Job Wall-clock time: 00:37:00
+Memory Utilized: 2.58 GB
+Memory Efficiency: 68.70% of 3.75 GB
+Job ID: 6131932
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:10:22
+CPU Efficiency: 17.22% of 01:00:13 core-walltime
+Job Wall-clock time: 01:00:13
+Memory Utilized: 726.21 MB
+Memory Efficiency: 18.91% of 3.75 GB
+Job ID: 6183310
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:00:13
+CPU Efficiency: 1.38% of 00:15:40 core-walltime
+Job Wall-clock time: 00:01:34
+Memory Utilized: 26.04 MB
+Memory Efficiency: 0.08% of 30.00 GB
+Job ID: 6183961
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:00:06
+CPU Efficiency: 1.11% of 00:09:00 core-walltime
+Job Wall-clock time: 00:00:54
+Memory Utilized: 26.30 MB
+Memory Efficiency: 0.09% of 30.00 GB
+Job ID: 6184077
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 137)
+Cores: 1
+CPU Utilized: 00:00:04
+CPU Efficiency: 0.76% of 00:08:45 core-walltime
+Job Wall-clock time: 00:08:45
+Memory Utilized: 103.49 MB
+Memory Efficiency: 2.70% of 3.75 GB
+Job ID: 6185648
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:00:09
+CPU Efficiency: 1.32% of 00:11:20 core-walltime
+Job Wall-clock time: 00:01:08
+Memory Utilized: 26.17 MB
+Memory Efficiency: 0.09% of 30.00 GB
+Job ID: 6185666
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:05
+CPU Efficiency: 1.23% of 00:06:47 core-walltime
+Job Wall-clock time: 00:06:47
+Memory Utilized: 20.75 MB
+Memory Efficiency: 0.54% of 3.75 GB
+Job ID: 6185819
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:05:49
+CPU Efficiency: 23.45% of 00:24:48 core-walltime
+Job Wall-clock time: 00:24:48
+Memory Utilized: 3.37 GB
+Memory Efficiency: 89.86% of 3.75 GB
+Job ID: 6185891
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 15
+CPU Utilized: 01:22:24
+CPU Efficiency: 30.24% of 04:32:30 core-walltime
+Job Wall-clock time: 00:18:10
+Memory Utilized: 27.69 GB
+Memory Efficiency: 92.29% of 30.00 GB
+Job ID: 6186139
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 130)
+Cores: 1
+CPU Utilized: 00:00:11
+CPU Efficiency: 16.18% of 00:01:08 core-walltime
+Job Wall-clock time: 00:01:08
+Memory Utilized: 9.43 MB
+Memory Efficiency: 0.25% of 3.75 GB
+Job ID: 6186147
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:00:04
+CPU Efficiency: 0.82% of 00:08:10 core-walltime
+Job Wall-clock time: 00:00:49
+Memory Utilized: 26.30 MB
+Memory Efficiency: 0.09% of 30.00 GB
+Job ID: 6186215
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:00:05
+CPU Efficiency: 1.56% of 00:05:20 core-walltime
+Job Wall-clock time: 00:00:32
+Memory Utilized: 25.98 MB
+Memory Efficiency: 0.08% of 30.00 GB
+Job ID: 6186256
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:45:47
+CPU Efficiency: 1.52% of 2-02:02:20 core-walltime
+Job Wall-clock time: 05:00:14
+Memory Utilized: 20.50 MB
+Memory Efficiency: 0.07% of 30.00 GB
+Job ID: 6194001
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:13:55
+CPU Efficiency: 0.41% of 2-08:36:40 core-walltime
+Job Wall-clock time: 07:04:35
+Memory Utilized: 20.12 MB
+Memory Efficiency: 0.20% of 10.00 GB
+Job ID: 6200096
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: OUT_OF_MEMORY (exit code 0)
+Nodes: 1
+Cores per node: 3
+CPU Utilized: 00:33:29
+CPU Efficiency: 36.86% of 01:30:51 core-walltime
+Job Wall-clock time: 00:30:17
+Memory Utilized: 4.62 GB
+Memory Efficiency: 92.34% of 5.00 GB
+Job ID: 6200529
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 3
+CPU Utilized: 01:04:26
+CPU Efficiency: 44.54% of 02:24:39 core-walltime
+Job Wall-clock time: 00:48:13
+Memory Utilized: 5.40 GB
+Memory Efficiency: 53.96% of 10.00 GB
+Job ID: 6207162
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.42% of 00:07:51 core-walltime
+Job Wall-clock time: 00:07:51
+Memory Utilized: 2.73 MB
+Memory Efficiency: 0.07% of 3.75 GB
+Job ID: 6207212
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:02
+CPU Efficiency: 5.88% of 00:00:34 core-walltime
+Job Wall-clock time: 00:00:34
+Memory Utilized: 2.71 MB
+Memory Efficiency: 0.07% of 3.75 GB
+Job ID: 6209563
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:02
+CPU Efficiency: 2.13% of 00:01:34 core-walltime
+Job Wall-clock time: 00:01:34
+Memory Utilized: 2.71 MB
+Memory Efficiency: 0.07% of 3.75 GB
+Job ID: 6209597
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 137)
+Cores: 1
+CPU Utilized: 00:00:03
+CPU Efficiency: 1.01% of 00:04:58 core-walltime
+Job Wall-clock time: 00:04:58
+Memory Utilized: 14.05 MB
+Memory Efficiency: 0.37% of 3.75 GB
+Job ID: 6216621
+Cluster: alpine
+User/Group: brunetti@xsede.org/brunettipgrp@xsede.org
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.12% of 00:27:06 core-walltime
+Job Wall-clock time: 00:27:06
+Memory Utilized: 2.65 MB
+Memory Efficiency: 0.07% of 3.75 GB
+LEVELFS
+amc-general         1.143477            1.480241                                
+amc1_asc1           0.369667            1.480241                                
+amc9999_asc1        inf                 1.480241                                
+NEW USER: kfotso@xsede.org
+JOBSIZE
+Cluster|Account|0-49 CPUs|50-249 CPUs|250-499 CPUs|500-999 CPUs|>= 1000 CPUs|% of cluster|
+alpine|amc-general|125|0|0|0|0|100.00%|
+SU
+Cluster|Account|Login|Proper Name|TRES Name|Used
+alpine|amc-general|kfotso@xsede.org|Kevin Fotso|billing|396
+TOTALJOBS
+108
+JOBSTATUS
+COMPLETED	59
+FAILED	41
+TIMEOUT	8
+SEFF
+Job ID: 5909225
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:52
+CPU Efficiency: 1.87% of 00:46:24 core-walltime
+Job Wall-clock time: 00:11:36
+Memory Utilized: 2.90 GB (estimated maximum)
+Memory Efficiency: 19.32% of 15.00 GB (3.75 GB/core)
+Job ID: 5909419
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:01:06
+CPU Efficiency: 1.49% of 01:13:48 core-walltime
+Job Wall-clock time: 00:18:27
+Memory Utilized: 3.34 GB (estimated maximum)
+Memory Efficiency: 22.27% of 15.00 GB (3.75 GB/core)
+Job ID: 5909487
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:08
+CPU Efficiency: 0.49% of 00:27:16 core-walltime
+Job Wall-clock time: 00:06:49
+Memory Utilized: 399.61 MB (estimated maximum)
+Memory Efficiency: 2.60% of 15.00 GB (3.75 GB/core)
+Job ID: 5909557
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 137)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 1-15:57:24 core-walltime
+Job Wall-clock time: 09:59:21
+Memory Utilized: 10.83 MB (estimated maximum)
+Memory Efficiency: 0.07% of 15.00 GB (3.75 GB/core)
+Job ID: 5919531
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:22 core-walltime
+Job Wall-clock time: 00:00:22
+Memory Utilized: 2.58 MB
+Memory Efficiency: 0.07% of 3.75 GB
+Job ID: 5919535
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 04:00:16 core-walltime
+Job Wall-clock time: 04:00:16
+Memory Utilized: 1.68 MB
+Memory Efficiency: 0.04% of 3.75 GB
+Job ID: 5952469
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.64% of 00:02:36 core-walltime
+Job Wall-clock time: 00:00:39
+Memory Utilized: 10.31 MB (estimated maximum)
+Memory Efficiency: 0.07% of 15.00 GB (3.75 GB/core)
+Job ID: 5952494
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:08:25
+CPU Efficiency: 0.29% of 2-00:00:00 core-walltime
+Job Wall-clock time: 12:00:00
+Memory Utilized: 3.23 GB (estimated maximum)
+Memory Efficiency: 21.51% of 15.00 GB (3.75 GB/core)
+Job ID: 5954108
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:16
+CPU Efficiency: 0.03% of 13:25:20 core-walltime
+Job Wall-clock time: 03:21:20
+Memory Utilized: 246.47 MB (estimated maximum)
+Memory Efficiency: 1.60% of 15.00 GB (3.75 GB/core)
+Job ID: 5967740
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 137)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 01:11:28
+CPU Efficiency: 4.91% of 1-00:17:00 core-walltime
+Job Wall-clock time: 06:04:15
+Memory Utilized: 1.72 GB (estimated maximum)
+Memory Efficiency: 11.45% of 15.00 GB (3.75 GB/core)
+Job ID: 5978935
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.07% of 00:49:12 core-walltime
+Job Wall-clock time: 00:12:18
+Memory Utilized: 20.11 MB (estimated maximum)
+Memory Efficiency: 0.13% of 15.00 GB (3.75 GB/core)
+Job ID: 5981249
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.03% of 01:00:14 core-walltime
+Job Wall-clock time: 01:00:14
+Memory Utilized: 5.80 MB
+Memory Efficiency: 0.15% of 3.75 GB
+Job ID: 5986787
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:34:24
+CPU Efficiency: 1.19% of 2-00:01:24 core-walltime
+Job Wall-clock time: 12:00:21
+Memory Utilized: 1.63 GB (estimated maximum)
+Memory Efficiency: 10.85% of 15.00 GB (3.75 GB/core)
+Job ID: 5987362
+Array Job ID: 5987357_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987357
+Array Job ID: 5987357_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987363
+Array Job ID: 5987358_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987358
+Array Job ID: 5987358_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987364
+Array Job ID: 5987359_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:00 core-walltime
+Job Wall-clock time: 00:00:00
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987359
+Array Job ID: 5987359_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:00 core-walltime
+Job Wall-clock time: 00:00:00
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987365
+Array Job ID: 5987360_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:32
+CPU Efficiency: 24.20% of 00:14:36 core-walltime
+Job Wall-clock time: 00:03:39
+Memory Utilized: 415.98 MB
+Memory Efficiency: 2.71% of 15.00 GB
+Job ID: 5987360
+Array Job ID: 5987360_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:30
+CPU Efficiency: 24.19% of 00:14:28 core-walltime
+Job Wall-clock time: 00:03:37
+Memory Utilized: 416.37 MB
+Memory Efficiency: 2.71% of 15.00 GB
+Job ID: 5987570
+Array Job ID: 5987361_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:08 core-walltime
+Job Wall-clock time: 00:00:02
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987361
+Array Job ID: 5987361_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:08 core-walltime
+Job Wall-clock time: 00:00:02
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987587
+Array Job ID: 5987581_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987581
+Array Job ID: 5987581_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987590
+Array Job ID: 5987582_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:08 core-walltime
+Job Wall-clock time: 00:00:02
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987582
+Array Job ID: 5987582_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:08 core-walltime
+Job Wall-clock time: 00:00:02
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987591
+Array Job ID: 5987583_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987583
+Array Job ID: 5987583_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 15.00 GB (3.75 GB/core)
+Job ID: 5987608
+Array Job ID: 5987601_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:01
+CPU Efficiency: 6.25% of 00:00:16 core-walltime
+Job Wall-clock time: 00:00:04
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987601
+Array Job ID: 5987601_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:01
+CPU Efficiency: 6.25% of 00:00:16 core-walltime
+Job Wall-clock time: 00:00:04
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987612
+Array Job ID: 5987602_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:24 core-walltime
+Job Wall-clock time: 00:00:06
+Memory Utilized: 396.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987602
+Array Job ID: 5987602_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:24 core-walltime
+Job Wall-clock time: 00:00:06
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987614
+Array Job ID: 5987603_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987603
+Array Job ID: 5987603_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 15.00 GB (3.75 GB/core)
+Job ID: 5987663
+Array Job ID: 5987661_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:28 core-walltime
+Job Wall-clock time: 00:00:07
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987661
+Array Job ID: 5987661_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:28 core-walltime
+Job Wall-clock time: 00:00:07
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987686
+Array Job ID: 5987681_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:32 core-walltime
+Job Wall-clock time: 00:00:08
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987681
+Array Job ID: 5987681_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:32 core-walltime
+Job Wall-clock time: 00:00:08
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987688
+Array Job ID: 5987682_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:16 core-walltime
+Job Wall-clock time: 00:00:04
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987682
+Array Job ID: 5987682_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987690
+Array Job ID: 5987683_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:00 core-walltime
+Job Wall-clock time: 00:00:00
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987683
+Array Job ID: 5987683_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:00 core-walltime
+Job Wall-clock time: 00:00:00
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987694
+Array Job ID: 5987684_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:04:36
+CPU Efficiency: 24.73% of 00:18:36 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 426.04 MB
+Memory Efficiency: 2.77% of 15.00 GB
+Job ID: 5987684
+Array Job ID: 5987684_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:02:49
+CPU Efficiency: 24.71% of 00:11:24 core-walltime
+Job Wall-clock time: 00:02:51
+Memory Utilized: 425.26 MB
+Memory Efficiency: 2.77% of 15.00 GB
+Job ID: 5987702
+Array Job ID: 5987685_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:01
+CPU Efficiency: 25.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987685
+Array Job ID: 5987685_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:04 core-walltime
+Job Wall-clock time: 00:00:01
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987710
+Array Job ID: 5987706_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:23:32
+CPU Efficiency: 93.14% of 00:25:16 core-walltime
+Job Wall-clock time: 00:06:19
+Memory Utilized: 282.85 MB
+Memory Efficiency: 1.84% of 15.00 GB
+Job ID: 5987706
+Array Job ID: 5987706_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:14:40
+CPU Efficiency: 88.71% of 00:16:32 core-walltime
+Job Wall-clock time: 00:04:08
+Memory Utilized: 280.87 MB
+Memory Efficiency: 1.83% of 15.00 GB
+Job ID: 5987735
+Array Job ID: 5987730_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:23:39
+CPU Efficiency: 93.85% of 00:25:12 core-walltime
+Job Wall-clock time: 00:06:18
+Memory Utilized: 247.79 MB
+Memory Efficiency: 1.61% of 15.00 GB
+Job ID: 5987730
+Array Job ID: 5987730_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:14:40
+CPU Efficiency: 89.80% of 00:16:20 core-walltime
+Job Wall-clock time: 00:04:05
+Memory Utilized: 250.56 MB
+Memory Efficiency: 1.63% of 15.00 GB
+Job ID: 5987742
+Array Job ID: 5987731_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:20 core-walltime
+Job Wall-clock time: 00:00:05
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987731
+Array Job ID: 5987731_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:28 core-walltime
+Job Wall-clock time: 00:00:07
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987744
+Array Job ID: 5987732_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:23:09
+CPU Efficiency: 94.36% of 00:24:32 core-walltime
+Job Wall-clock time: 00:06:08
+Memory Utilized: 280.43 MB
+Memory Efficiency: 1.83% of 15.00 GB
+Job ID: 5987732
+Array Job ID: 5987732_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:14:54
+CPU Efficiency: 89.76% of 00:16:36 core-walltime
+Job Wall-clock time: 00:04:09
+Memory Utilized: 270.96 MB
+Memory Efficiency: 1.76% of 15.00 GB
+Job ID: 5987757
+Array Job ID: 5987733_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:18
+CPU Efficiency: 24.38% of 00:13:32 core-walltime
+Job Wall-clock time: 00:03:23
+Memory Utilized: 424.23 MB
+Memory Efficiency: 2.76% of 15.00 GB
+Job ID: 5987733
+Array Job ID: 5987733_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:17
+CPU Efficiency: 24.50% of 00:13:24 core-walltime
+Job Wall-clock time: 00:03:21
+Memory Utilized: 424.75 MB
+Memory Efficiency: 2.77% of 15.00 GB
+Job ID: 5987761
+Array Job ID: 5987734_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:20 core-walltime
+Job Wall-clock time: 00:00:05
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987734
+Array Job ID: 5987734_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:20 core-walltime
+Job Wall-clock time: 00:00:05
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987779
+Array Job ID: 5987772_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:19:17
+CPU Efficiency: 93.01% of 00:20:44 core-walltime
+Job Wall-clock time: 00:05:11
+Memory Utilized: 239.76 MB
+Memory Efficiency: 1.56% of 15.00 GB
+Job ID: 5987772
+Array Job ID: 5987772_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:19:27
+CPU Efficiency: 89.22% of 00:21:48 core-walltime
+Job Wall-clock time: 00:05:27
+Memory Utilized: 242.61 MB
+Memory Efficiency: 1.58% of 15.00 GB
+Job ID: 5987790
+Array Job ID: 5987773_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:24 core-walltime
+Job Wall-clock time: 00:00:06
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987773
+Array Job ID: 5987773_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:24 core-walltime
+Job Wall-clock time: 00:00:06
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 15.00 GB (3.75 GB/core)
+Job ID: 5987797
+Array Job ID: 5987774_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:19:55
+CPU Efficiency: 91.92% of 00:21:40 core-walltime
+Job Wall-clock time: 00:05:25
+Memory Utilized: 239.40 MB
+Memory Efficiency: 1.56% of 15.00 GB
+Job ID: 5987774
+Array Job ID: 5987774_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:14:39
+CPU Efficiency: 84.52% of 00:17:20 core-walltime
+Job Wall-clock time: 00:04:20
+Memory Utilized: 280.34 MB
+Memory Efficiency: 1.83% of 15.00 GB
+Job ID: 5987866
+Array Job ID: 5987775_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:17
+CPU Efficiency: 24.50% of 00:13:24 core-walltime
+Job Wall-clock time: 00:03:21
+Memory Utilized: 423.97 MB
+Memory Efficiency: 2.76% of 15.00 GB
+Job ID: 5987775
+Array Job ID: 5987775_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:17
+CPU Efficiency: 24.38% of 00:13:28 core-walltime
+Job Wall-clock time: 00:03:22
+Memory Utilized: 424.75 MB
+Memory Efficiency: 2.77% of 15.00 GB
+Job ID: 5987888
+Array Job ID: 5987776_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5987776
+Array Job ID: 5987776_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5988044
+Array Job ID: 5988042_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:12 core-walltime
+Job Wall-clock time: 00:00:03
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5988042
+Array Job ID: 5988042_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:20 core-walltime
+Job Wall-clock time: 00:00:05
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5988088
+Array Job ID: 5988081_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:18:26
+CPU Efficiency: 94.69% of 00:19:28 core-walltime
+Job Wall-clock time: 00:04:52
+Memory Utilized: 268.38 MB
+Memory Efficiency: 1.75% of 15.00 GB
+Job ID: 5988081
+Array Job ID: 5988081_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:18:26
+CPU Efficiency: 94.05% of 00:19:36 core-walltime
+Job Wall-clock time: 00:04:54
+Memory Utilized: 270.84 MB
+Memory Efficiency: 1.76% of 15.00 GB
+Job ID: 5988095
+Array Job ID: 5988082_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:20 core-walltime
+Job Wall-clock time: 00:00:05
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5988082
+Array Job ID: 5988082_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:20 core-walltime
+Job Wall-clock time: 00:00:05
+Memory Utilized: 132.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5988118
+Array Job ID: 5988111_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:22:58
+CPU Efficiency: 94.64% of 00:24:16 core-walltime
+Job Wall-clock time: 00:06:04
+Memory Utilized: 282.80 MB
+Memory Efficiency: 1.84% of 15.00 GB
+Job ID: 5988111
+Array Job ID: 5988111_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:14:56
+CPU Efficiency: 89.96% of 00:16:36 core-walltime
+Job Wall-clock time: 00:04:09
+Memory Utilized: 231.64 MB
+Memory Efficiency: 1.51% of 15.00 GB
+Job ID: 5988125
+Array Job ID: 5988112_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:47
+CPU Efficiency: 23.50% of 00:03:20 core-walltime
+Job Wall-clock time: 00:00:50
+Memory Utilized: 14.82 MB
+Memory Efficiency: 0.10% of 15.00 GB
+Job ID: 5988112
+Array Job ID: 5988112_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:57
+CPU Efficiency: 23.75% of 00:04:00 core-walltime
+Job Wall-clock time: 00:01:00
+Memory Utilized: 14.95 MB
+Memory Efficiency: 0.10% of 15.00 GB
+Job ID: 5988127
+Array Job ID: 5988113_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:20:35
+CPU Efficiency: 92.44% of 00:22:16 core-walltime
+Job Wall-clock time: 00:05:34
+Memory Utilized: 280.32 MB
+Memory Efficiency: 1.83% of 15.00 GB
+Job ID: 5988113
+Array Job ID: 5988113_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:20:24
+CPU Efficiency: 91.62% of 00:22:16 core-walltime
+Job Wall-clock time: 00:05:34
+Memory Utilized: 280.27 MB
+Memory Efficiency: 1.82% of 15.00 GB
+Job ID: 5988136
+Array Job ID: 5988114_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:22
+CPU Efficiency: 24.63% of 00:13:40 core-walltime
+Job Wall-clock time: 00:03:25
+Memory Utilized: 414.69 MB
+Memory Efficiency: 2.70% of 15.00 GB
+Job ID: 5988114
+Array Job ID: 5988114_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:50
+CPU Efficiency: 24.57% of 00:15:36 core-walltime
+Job Wall-clock time: 00:03:54
+Memory Utilized: 425.13 MB
+Memory Efficiency: 2.77% of 15.00 GB
+Job ID: 5988146
+Array Job ID: 5988115_1
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:01
+CPU Efficiency: 1.79% of 00:00:56 core-walltime
+Job Wall-clock time: 00:00:14
+Memory Utilized: 396.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5988115
+Array Job ID: 5988115_2
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 2)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:01
+CPU Efficiency: 1.79% of 00:00:56 core-walltime
+Job Wall-clock time: 00:00:14
+Memory Utilized: 264.00 KB
+Memory Efficiency: 0.00% of 15.00 GB
+Job ID: 5989304
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:02:29
+CPU Efficiency: 1.48% of 02:47:56 core-walltime
+Job Wall-clock time: 00:41:59
+Memory Utilized: 3.95 GB (estimated maximum)
+Memory Efficiency: 26.33% of 15.00 GB (3.75 GB/core)
+Job ID: 5991886
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:01:27
+CPU Efficiency: 0.09% of 1-02:19:28 core-walltime
+Job Wall-clock time: 06:34:52
+Memory Utilized: 2.89 GB (estimated maximum)
+Memory Efficiency: 19.23% of 15.00 GB (3.75 GB/core)
+Job ID: 6108488
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:30:44 core-walltime
+Job Wall-clock time: 00:07:41
+Memory Utilized: 5.16 MB (estimated maximum)
+Memory Efficiency: 0.03% of 15.00 GB (3.75 GB/core)
+Job ID: 6108983
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:02:20 core-walltime
+Job Wall-clock time: 00:00:35
+Memory Utilized: 10.31 MB (estimated maximum)
+Memory Efficiency: 0.07% of 15.00 GB (3.75 GB/core)
+Job ID: 6108984
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:44
+CPU Efficiency: 0.37% of 03:15:36 core-walltime
+Job Wall-clock time: 00:48:54
+Memory Utilized: 4.18 GB (estimated maximum)
+Memory Efficiency: 27.90% of 15.00 GB (3.75 GB/core)
+Job ID: 6109014
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:21 core-walltime
+Job Wall-clock time: 00:00:21
+Memory Utilized: 2.58 MB
+Memory Efficiency: 0.07% of 3.75 GB
+Job ID: 6109138
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 127)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:02:41
+CPU Efficiency: 0.72% of 06:10:28 core-walltime
+Job Wall-clock time: 01:32:37
+Memory Utilized: 3.03 GB (estimated maximum)
+Memory Efficiency: 20.21% of 15.00 GB (3.75 GB/core)
+Job ID: 6109548
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 127)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:03
+CPU Efficiency: 0.19% of 00:26:08 core-walltime
+Job Wall-clock time: 00:06:32
+Memory Utilized: 231.52 MB (estimated maximum)
+Memory Efficiency: 1.51% of 15.00 GB (3.75 GB/core)
+Job ID: 6111302
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.03% of 02:00:12 core-walltime
+Job Wall-clock time: 00:30:03
+Memory Utilized: 56.72 MB (estimated maximum)
+Memory Efficiency: 0.37% of 15.00 GB (3.75 GB/core)
+Job ID: 6141851
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:03:47
+CPU Efficiency: 1.00% of 06:18:16 core-walltime
+Job Wall-clock time: 01:34:34
+Memory Utilized: 3.61 GB (estimated maximum)
+Memory Efficiency: 24.04% of 15.00 GB (3.75 GB/core)
+Job ID: 6142138
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 139)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:09
+CPU Efficiency: 1.16% of 00:12:56 core-walltime
+Job Wall-clock time: 00:03:14
+Memory Utilized: 182.98 MB (estimated maximum)
+Memory Efficiency: 1.19% of 15.00 GB (3.75 GB/core)
+Job ID: 6142140
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 127)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:04
+CPU Efficiency: 0.07% of 01:29:04 core-walltime
+Job Wall-clock time: 00:22:16
+Memory Utilized: 57.66 MB (estimated maximum)
+Memory Efficiency: 0.38% of 15.00 GB (3.75 GB/core)
+Job ID: 6142167
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:01:50
+CPU Efficiency: 0.48% of 06:25:12 core-walltime
+Job Wall-clock time: 01:36:18
+Memory Utilized: 1.99 GB (estimated maximum)
+Memory Efficiency: 13.25% of 15.00 GB (3.75 GB/core)
+Job ID: 6142329
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 137)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:46
+CPU Efficiency: 0.05% of 1-02:05:24 core-walltime
+Job Wall-clock time: 06:31:21
+Memory Utilized: 2.13 GB (estimated maximum)
+Memory Efficiency: 14.20% of 15.00 GB (3.75 GB/core)
+Job ID: 6142964
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 137)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:48
+CPU Efficiency: 0.21% of 06:17:24 core-walltime
+Job Wall-clock time: 01:34:21
+Memory Utilized: 2.39 GB (estimated maximum)
+Memory Efficiency: 15.96% of 15.00 GB (3.75 GB/core)
+Job ID: 6154866
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:01:02 core-walltime
+Job Wall-clock time: 00:01:02
+Memory Utilized: 1.55 MB
+Memory Efficiency: 0.04% of 3.75 GB
+Job ID: 6161008
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:04
+CPU Efficiency: 0.01% of 07:47:12 core-walltime
+Job Wall-clock time: 01:56:48
+Memory Utilized: 649.17 MB (estimated maximum)
+Memory Efficiency: 4.23% of 15.00 GB (3.75 GB/core)
+Job ID: 6162445
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 137)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:04:23
+CPU Efficiency: 0.23% of 1-07:31:04 core-walltime
+Job Wall-clock time: 07:52:46
+Memory Utilized: 251.59 MB (estimated maximum)
+Memory Efficiency: 1.64% of 15.00 GB (3.75 GB/core)
+Job ID: 6177497
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 137)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:01:22
+CPU Efficiency: 0.11% of 20:29:32 core-walltime
+Job Wall-clock time: 05:07:23
+Memory Utilized: 2.01 GB (estimated maximum)
+Memory Efficiency: 13.39% of 15.00 GB (3.75 GB/core)
+Job ID: 6192326
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: FAILED (exit code 137)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:03
+CPU Efficiency: 0.00% of 1-17:40:00 core-walltime
+Job Wall-clock time: 10:25:00
+Memory Utilized: 23.72 MB (estimated maximum)
+Memory Efficiency: 0.15% of 15.00 GB (3.75 GB/core)
+Job ID: 6206670
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 6
+CPU Utilized: 00:01:35
+CPU Efficiency: 0.44% of 06:01:18 core-walltime
+Job Wall-clock time: 01:00:13
+Memory Utilized: 156.47 MB
+Memory Efficiency: 0.68% of 22.50 GB
+Job ID: 6208887
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.40% of 00:08:24 core-walltime
+Job Wall-clock time: 00:02:06
+Memory Utilized: 10.31 MB (estimated maximum)
+Memory Efficiency: 0.07% of 15.00 GB (3.75 GB/core)
+Job ID: 6213829
+Cluster: alpine
+User/Group: kfotso@xsede.org/kfotsopgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 6
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 06:00:00 core-walltime
+Job Wall-clock time: 01:00:00
+Memory Utilized: 1.80 MB
+Memory Efficiency: 0.01% of 22.50 GB
+LEVELFS
+amc-general         10.815141           1.480241                                
+amc1_asc1           3.391419            1.480241                                
+amc9999_asc1        inf                 1.480241                                
+NEW USER: msherren@xsede.org
+JOBSIZE
+Cluster|Account|0-49 CPUs|50-249 CPUs|250-499 CPUs|500-999 CPUs|>= 1000 CPUs|% of cluster|
+alpine|amc-general|2|0|0|0|0|100.00%|
+SU
+Cluster|Account|Login|Proper Name|TRES Name|Used
+alpine|amc-general|msherren@xsede.org|Maclean Sherren|billing|2
+TOTALJOBS
+2
+JOBSTATUS
+TIMEOUT	2
+SEFF
+Job ID: 6192428
+Cluster: alpine
+User/Group: msherren@xsede.org/msherrenpgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:26
+CPU Efficiency: 0.72% of 01:00:18 core-walltime
+Job Wall-clock time: 01:00:18
+Memory Utilized: 276.48 MB
+Memory Efficiency: 7.20% of 3.75 GB
+Job ID: 6194366
+Cluster: alpine
+User/Group: msherren@xsede.org/msherrenpgrp@xsede.org
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:18
+CPU Efficiency: 0.50% of 01:00:02 core-walltime
+Job Wall-clock time: 01:00:02
+Memory Utilized: 76.44 MB
+Memory Efficiency: 1.99% of 3.75 GB
+LEVELFS
+amc-general         255.266586          1.480241                                

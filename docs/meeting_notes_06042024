@@ -1,0 +1,21 @@
+1.  What metrics should we report to the user and for what time period?
+Focus on top 5 super users; users get a report based on min  SU threhsold (5% utilized or more) --  think about what we want to do with Jun and resources  
+* report levefs  
+* seff begin month to end month table summary  
+* sumarize core hours and SUs in a way that is interpretable -- ~20% of all availble SUs of (x number of nodes and cores on campus)  
+* Core hours for user and cores hours for insitution -- graph how far they are from the red line onf 20%, etc... and same graph from levelfs and graph where line is.  
+* split Reporting for High mem vs GPU vs CPU? seff might not be a good answer for the GPU partition only report SU usage; we need to offer suggestions to them for how to profile and make sure the GPUs are being used efficiently  
+
+2.  What tools/commands do we have to automate/collect this metrics or write a script to collect these?  
+* jobstats to fetch job ids  
+* seff of jobstats to standard out but add echo lines to make it parsable  
+* CRON job to sapwn off a bash/shell then to feed output into python to html --> manually send users (let's not automate an email yeet, make this more personable for now)
+* pandas data of seff output to table    
+might need to report weekly instead of monthly if data fetch is too high
+test this on  a mid user first and see
+
+
+3.  Format these metrics in a way that is easy to read.  Feed data into an automated .rmd/.ipynb script that is rendered into an html of tables, visuals, etc...?  
+* no graphs, just graphs for longevity -- graphs more useful for long term repornt (1-2x/ year per department, etc...)
+* pandas data of seff output to table  
+* split Reporting for High mem vs GPU vs CPU? seff might not be a good answer for the GPU partition only report SU usage; we need to offer suggestions to them for how to profile and make sure the GPUs are being used efficiently

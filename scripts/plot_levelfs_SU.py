@@ -73,23 +73,27 @@ df_SU = pd.DataFrame(d, index=index)
 df_SU.to_html(open('df_SU.html', 'w'))
 
 print(f"********Plotting levelfs********\n")
-fig = plt.figure()
-df_levelfs.plot.bar(y='User_levelfs', rot=0, figsize=(16, 12),);
+df_levelfs.plot.bar(y='User_levelfs', rot=0, figsize=(12, 8),);
+plt.axhline(y=1, color='red', linestyle='dotted', linewidth=2.5)
+plt.xlabel('Users', fontsize=18)
+plt.ylabel('SUs (%)', fontsize=16)
 plt.xticks(rotation=45)
 plt.yticks(fontsize=20)
 plt.xticks(fontsize=20)
 plt.legend(["levelfs"], fontsize="20", loc ="upper right")
 plt.title('User levelfs ' , fontsize=30)
-fig.savefig("Top_levelfs.png")
-
+plt.savefig("Top_levelfs.png")
+plt.show()
 
 print(f"********Plotting SUs********\n")
-fig = plt.figure()
-df_SU.plot.bar(y='SU(%)', rot=0, figsize=(16, 12),);
+df_SU.plot.bar(y='SU(%)', rot=0, figsize=(12, 8),);
+plt.axhline(y=20, color='red', linestyle='dotted', linewidth=2.5)
+plt.xlabel('Users', fontsize=18)
+plt.ylabel('SUs (%)', fontsize=16)
 plt.xticks(rotation=45)
 plt.yticks(fontsize=20)
 plt.xticks(fontsize=20)
 plt.legend(["SU(%)"], fontsize="20", loc ="upper right")
 plt.title('Top 5 users percentage of SUs' , fontsize=30)
-fig.savefig("Top_SUs.png")
-
+plt.savefig("Top_SUs.png")
+plt.show()

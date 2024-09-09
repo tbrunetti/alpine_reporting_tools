@@ -141,10 +141,10 @@ for ind,val in enumerate(user_list):
     sns.catplot(data=user_list_df_each_user[ind], x="State", y="CPU Efficiency (%)",  kind="box")
     cpu_efficiency_user=f"CPU_eff_user_{val}_.png"
     plt.title("CPU efficiency (%)")
-    plt.savefig(cpu_efficiency_user)
+    plt.savefig(cpu_efficiency_user, bbox_inches = 'tight')
     
     print(f"********Plotting and saving the plots for Mem eff********\n")
     sns.catplot(data=user_list_df_each_user[ind], x="State", y="Memory Efficiency (%)",  kind="box")
     mem_efficiency_user=f"Mem_eff_user_{val}_.png"
     plt.title("Mem efficiency (%)")
-    plt.savefig(mem_efficiency_user)
+    plt.savefig(mem_efficiency_user, bbox_inches = 'tight')

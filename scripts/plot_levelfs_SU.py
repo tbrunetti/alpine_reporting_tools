@@ -103,7 +103,7 @@ plt.yticks(fontsize=20)
 plt.xticks(fontsize=20)
 plt.legend(["levelfs (coeff)"], fontsize="20", loc ="upper right")
 plt.title('User levelfs ' , fontsize=30)
-plt.savefig("Top_levelfs.png")
+plt.savefig("Top_levelfs.png", bbox_inches = 'tight')
 plt.show()
 
 print(f"********Plotting SUs********\n")
@@ -114,9 +114,11 @@ plt.ylabel('SUs (%)', fontsize=16)
 plt.xticks(rotation=45)
 plt.yticks(fontsize=20)
 plt.xticks(fontsize=20)
+plt.ylim(0, 100)
+plt.tight_layout()
 plt.legend(["SU(%)"], fontsize="20", loc ="upper right")
 plt.title('Top 5 users percentage of SUs' , fontsize=30)
-plt.savefig("Top_SUs.png")
+plt.savefig("Top_SUs.png", bbox_inches = 'tight')
 plt.show()
 
 print(f"********Plotting individual levelfs and SUs********\n")
@@ -134,14 +136,14 @@ for ind, df_ in enumerate(user_list_df_levelfs):
     plt.legend(["levelfs"], fontsize="20", loc ="upper right")
     plt.title('User levelfs ' , fontsize=30)
     levelfs=f"Top_user_levelfs_{index_levelfs[ind]}_.png"
-    plt.savefig(levelfs)
+    plt.savefig(levelfs, bbox_inches = 'tight')
     plt.show()
 
 
 for ind, df_ in enumerate(user_list_df_SU):
     print(f"********Plotting SU********\n")
     df_.plot.bar(y='SU(%)', x = 'Username', rot=0, figsize=(12, 8),);
-    plt.axhline(y=1, color='red', linestyle='dotted', linewidth=2.5)
+    plt.axhline(y=100, color='red', linestyle='dotted', linewidth=2.5)
     #plt.xlabel('Users', fontsize=18)
     plt.ylabel('SU (%)', fontsize=16)
     #plt.xticks(rotation=45)
@@ -150,7 +152,7 @@ for ind, df_ in enumerate(user_list_df_SU):
     plt.legend(["SU (%)"], fontsize="20", loc ="upper right")
     plt.title('User SU ' , fontsize=30)
     SU=f"Top_user_SUs_{index_SU[ind]}_.png"
-    plt.savefig(SU)
+    plt.savefig(SU, bbox_inches = 'tight')
     plt.show()
 
 

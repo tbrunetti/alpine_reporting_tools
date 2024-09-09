@@ -31,5 +31,12 @@ echo "###########Calculate SUs###########"
 
 
 echo "###########Save as dataframe and plot###########"
-/projects/kfotso@xsede.org/slurm_report/June_2024_/alpine_reporting_tools/scripts/plot_levelfs_SU.py
+python /projects/kfotso@xsede.org/slurm_report/June_2024_/alpine_reporting_tools/scripts/plot_levelfs_SU.py
 #/projects/kfotso@xsede.org/slurm_report/June_2024_/alpine_reporting_tools/scripts/scrape_user_metrics.sh USERS=$top1,$top2,$top3,$top4,$top5 START_DATE=$START_DATE END_DATE=$END_DATE
+
+echo "###########Saving the jobs efficiency###########"
+bash /projects/kfotso@xsede.org/slurm_report/June_2024_/alpine_reporting_tools/scripts/calc_eff_.sh USERS=$top1,$top2,$top3,$top4,$top5 START_DATE=$START_DATE END_DATE=$END_DATE
+
+echo "###########Parsing txt file, making dataframe, saving and plotting###########"
+python /projects/kfotso@xsede.org/slurm_report/June_2024_/alpine_reporting_tools/scripts/parse_eff_+_df.py
+

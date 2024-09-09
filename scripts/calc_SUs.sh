@@ -23,6 +23,10 @@ DATE_GEN=$( date +"%m%d%Y" )
 OUTFILE="data_scrape_by_user_dates_START="${START_DATE}"_END="${END_DATE}"_reportGeneratedOn_"${DATE_GEN}".txt"
 touch ${OUTFILE}
 
+if [ -f "$OUTFILE" ] ; then
+    rm "$OUTFILE"
+fi
+
 # get all users
 ALL_USERS=( $(echo ${USERS} | sed 's/,/ /g') )
 

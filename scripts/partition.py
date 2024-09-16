@@ -20,19 +20,26 @@ sorted_avg_diff_per_day.to_csv('average_difference_per_day.csv', header=True)
 # Remove outliers:
 filtered_df = df[df['Difference (min)'] <= 10000]
 
+# Extract month from the 'Start Time' column and filter for the first 9 months
+filtered_df = filtered_df[filtered_df['Month'].isin(range(1, 10))]
 
-# Boxplot of partition chart:
+# Create a list of data for each month
+boxplot_data = [filtered_df[filtered_df['Month'] == month]['Difference (min)'] for month in sorted(filtered_df['Month'].unique())]
 
-plt.boxplot(filtered_df['Difference (min)'], vert=False, patch_artist=True)
-plt.title('Box Plot of Difference (min) for Partition:')
-plt.xlabel('Difference (min)')
+
+# Create the box plot
+plt.figure(figsize=(12, 8))
+plt.boxplot(boxplot_data, vert=True, patch_artist=True, labels=[f'Month {month}' for month in sorted(filtered_df['Month'].unique())])
+plt.title('Box Plot of Queue Time (min) by Month')
+plt.xlabel('Month')
+plt.ylabel('Queue time in minutes')
 plt.grid(True)
 
 # Save the plot to a PNG file
-plt.savefig('box_plot_JantoSept1_partition.png')
+plt.savefig('box_plot_by_month.png')
 
-# Save to a PDF
-# plt.savefig('box_plot_JantoSept1_partition.pdf')
+# Save to a PDF (optional)
+# plt.savefig('box_plot_by_month.pdf')
 
 plt.close()
 
